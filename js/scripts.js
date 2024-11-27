@@ -102,3 +102,13 @@ contactForm.addEventListener("submit", (e) => {
       alert("Unable to submit the form. Please check your internet connection.");
     });
 });
+
+const form = document.querySelector("#contact-form");
+form.addEventListener("submit", (e) => {
+    const email = form.querySelector("input[name='email']").value;
+    if (!email || !email.includes("@")) {
+        e.preventDefault();
+        alert("Please enter a valid email address.");
+    }
+});
+
