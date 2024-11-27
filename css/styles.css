@@ -62,3 +62,36 @@ header nav ul li a {
         transform: scale(1.1);
     }
 }
+
+.parallax {
+    background-image: url('your-image.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.cta-section {
+    background: linear-gradient(to right, #002f6c, #4f9dce);
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.service-item {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
