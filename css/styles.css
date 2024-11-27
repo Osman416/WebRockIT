@@ -49,3 +49,16 @@ header nav ul li a {
   color: white;
   padding: 100px 0;
 }
+
+.button:hover {
+    animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
