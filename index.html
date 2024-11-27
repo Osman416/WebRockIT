@@ -33,6 +33,21 @@
     </div>
   </section>
 
+<div class="carousel">
+    <div><img src="image1.jpg" alt="Slide 1"></div>
+    <div><img src="image2.jpg" alt="Slide 2"></div>
+    <div><img src="image3.jpg" alt="Slide 3"></div>
+</div>
+<script>
+    $(document).ready(function(){
+        $('.carousel').slick({
+            autoplay: true,
+            dots: true,
+            arrows: true,
+        });
+    });
+</script>
+
   <footer>
     <div class="container">
       <p>© 2024 IT Solutions. All rights reserved.</p>
